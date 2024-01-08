@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{67D15EB2-6420-42ED-B1BF-0E68D0A4630E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brainstorm.Utilities", "src\Brainstorm.Utilities\Brainstorm.Utilities.csproj", "{F36002B5-9BDC-45F0-A06D-B1121848708C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D70CAE7F-939A-4AB3-95DD-D43CBFD73F80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A54A5582-C782-4BD8-9707-148130CF91BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brainstorm.UnitTests.Utilities", "tests\Brainstorm.UnitTests.Utilities\Brainstorm.UnitTests.Utilities.csproj", "{35713C66-8E56-4D80-A1E8-A7587053800D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F36002B5-9BDC-45F0-A06D-B1121848708C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36002B5-9BDC-45F0-A06D-B1121848708C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36002B5-9BDC-45F0-A06D-B1121848708C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36002B5-9BDC-45F0-A06D-B1121848708C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35713C66-8E56-4D80-A1E8-A7587053800D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35713C66-8E56-4D80-A1E8-A7587053800D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35713C66-8E56-4D80-A1E8-A7587053800D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35713C66-8E56-4D80-A1E8-A7587053800D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F36002B5-9BDC-45F0-A06D-B1121848708C} = {67D15EB2-6420-42ED-B1BF-0E68D0A4630E}
+		{35713C66-8E56-4D80-A1E8-A7587053800D} = {A54A5582-C782-4BD8-9707-148130CF91BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EE8F2A7-7CBC-454A-A446-9D32BC1B4BC6}
+	EndGlobalSection
+EndGlobal
