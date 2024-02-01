@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A54A5582
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brainstorm.UnitTests.Utilities", "tests\Brainstorm.UnitTests.Utilities\Brainstorm.UnitTests.Utilities.csproj", "{35713C66-8E56-4D80-A1E8-A7587053800D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainstorm.Data", "src\Brainstorm.Data\Brainstorm.Data.csproj", "{FB445B38-CF6A-4D7F-89F5-1A9126BCA4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainstorm.Logging", "src\Brainstorm.Logging\Brainstorm.Logging.csproj", "{BBA2BB95-8AD4-443C-AFE2-A48C21D97AAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{35713C66-8E56-4D80-A1E8-A7587053800D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35713C66-8E56-4D80-A1E8-A7587053800D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35713C66-8E56-4D80-A1E8-A7587053800D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB445B38-CF6A-4D7F-89F5-1A9126BCA4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB445B38-CF6A-4D7F-89F5-1A9126BCA4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB445B38-CF6A-4D7F-89F5-1A9126BCA4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB445B38-CF6A-4D7F-89F5-1A9126BCA4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA2BB95-8AD4-443C-AFE2-A48C21D97AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA2BB95-8AD4-443C-AFE2-A48C21D97AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA2BB95-8AD4-443C-AFE2-A48C21D97AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA2BB95-8AD4-443C-AFE2-A48C21D97AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F36002B5-9BDC-45F0-A06D-B1121848708C} = {67D15EB2-6420-42ED-B1BF-0E68D0A4630E}
 		{35713C66-8E56-4D80-A1E8-A7587053800D} = {A54A5582-C782-4BD8-9707-148130CF91BF}
+		{FB445B38-CF6A-4D7F-89F5-1A9126BCA4B4} = {67D15EB2-6420-42ED-B1BF-0E68D0A4630E}
+		{BBA2BB95-8AD4-443C-AFE2-A48C21D97AAC} = {67D15EB2-6420-42ED-B1BF-0E68D0A4630E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EE8F2A7-7CBC-454A-A446-9D32BC1B4BC6}
